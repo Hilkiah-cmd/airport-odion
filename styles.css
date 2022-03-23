@@ -38,20 +38,20 @@ nav ul{
     margin: 0;
     padding: 0;
     display: flex;
-    color: #fff;
 }
 nav ul li a {
     display: block;
-    margin: 0px 0;
-    padding: 10px 80px;
+    margin: 10px 30px;
+    padding: 10px 30px;
+    color: #f9faf8;
 }
-nav ul :hover {
+nav ul li a:hover
+ {
+    background: grey;
+    color: #fff;
     text-decoration: underline;
-    color: grey;
-    transition: .5s;
     border-radius: 10px;
-    margin-right: 5px;
-    padding-left: 5px;
+
 }
 .text-container {
     margin-top: 150px;
