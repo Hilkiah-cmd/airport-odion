@@ -92,3 +92,53 @@ nav ul li a:hover
     margin-left: 550px;
     margin-top: -300px;
 }
+/* Service Container */
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services-container .content-wrapper {
+    width: 150px;
+    height: 150px;
+    padding: 60px 30px;
+    margin: 20px;
+    background: #f2f3f7;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+                -0.5em -0.5em 1em #fff;
+    border-radius: 20px;
+}
+.services-container .content-wrapper .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services-container .content-wrapper .image-wrapper .imgBx {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.services-container .content-wrapper .image-wrapper .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.services {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+.services-container .content-wrapper .content-details {
+    margin-top: 20px;
+    color: #1F2937;
+}
