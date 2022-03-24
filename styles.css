@@ -142,3 +142,62 @@ nav ul li a:hover
     margin-top: 20px;
     color: #1F2937;
 }
+.testimonials {
+    margin-top: 70px;
+    background-color: #e5e7eb;
+    height: 240px;
+}
+.testimonials .testimonal-content {
+    text-align: center;
+    width: 60%;
+    margin-left: 25%;
+    padding-top: 40px;
+}
+.testimonials .testimonal-content p:nth-child(1) {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.testimonials .testimonal-content p:nth-child(2) {
+    font-size: 18px;
+    text-align: right;
+    color: #1F2937;
+    font-style: italic;
+}
+.ticket-section {
+    height: 200px;
+    display: flex;
+}
+.ticket-content {
+    width: 600px;
+    margin: 50px;
+    margin-left: 20%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #fff;
+    padding-left: 50px;
+}
+.ticket-content p:nth-child(1){
+    padding-top: 30px;
+    font-weight: bold;
+}
+.ticket-content .ticket-button{
+    float: right;
+    background-color: transparent;
+    border-color: #d2dce9;
+    border-radius: 10px;
+    height: 30px;
+    color: #fff;
+    margin-right: 100px;
+    margin-top: -30px;
+}
+footer {
+    background-color: #1F2937;
+    color: white;
+    height: 40px;
+    padding: 20px;
+}
+footer p:nth-child(1) {
+    text-align: center;
+    font-size: 23px;
+}
